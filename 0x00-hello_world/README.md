@@ -1,1 +1,3 @@
-The c programming with script.
+# C Basics
+
+* Hello World
