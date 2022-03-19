@@ -8,40 +8,40 @@
 int main(void)
 {
 
-	int n = 100; /*Delcaring statements*/
-	int i;
+int p = 100;
+int i;
 
-	i = 1;
-	while (i <= n) /*Start While*/
-	{
-		if (i % 3 == 0 && i % 5 == 0) /*Multple 3 and 5*/
-		{
-			printf("FizzBuzz ");
-		}
+i = 1;
+while (i <= p)
+{
+if (i % 3 == 0 && i % 5 == 0)
+{
+printf("FizzBuzz ");
+}
 
-		else if (i % 3 == 0) /*Muitple 3*/
-		{
-			printf("Fizz ");
-		}
+else if (i % 3 == 0)
+{
+printf("Fizz ");
+}
 
-		else if (i % 5 == 0) /*Multple 5*/
-		{
-			if (i < n)
-			printf("Buzz ");
+else if (i % 5 == 0)
+{
+if (i < p)
+printf("Buzz ");
 
-			else
-				printf("Buzz");
-		}
+else
+printf("Buzz");
+}
 
-		else
-		{
-			printf("%i ", i); /*Print i*/
-		}
+else
+{
+printf("%i ", i);
+}
 
-		i++;
+i++;
 
 
-	}
-	printf("\n"); /*New line*/
-	return (0);
+}
+printf("\n");
+return (0);
 }

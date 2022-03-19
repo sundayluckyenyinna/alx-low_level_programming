@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_diagonal - prints diagonal line
  *@n: print int
@@ -7,28 +7,28 @@
 void print_diagonal(int n)
 {
 
-/*Delcaring statements*/
-	int i;
-	int z;
+int i;
+int b;
 
-	if (n > 0) /*Start IF*/
-	{
-		for (i = 0; i < n; i++) /*Print (_) n times*/
-		{
-			for (z = 0; z < i ; z++) /*Print (_) * Second IF*/
-			{
-				_putchar (' ');
-			} /*End second IF*/
-			_putchar (92);
-			_putchar ('\n'); /*New line*/
+if (n > 0)
+{
+for (i = 0; i < n; i++)
+{
+for (b = 0; b < i; b++)
+{
+_putchar (' ');
+}
+_putchar (92);
+_putchar ('\n');
 
-		}
+}
 
-	} /*End IF*/
+}
 
-	else
-	{
-		_putchar ('\n');
-	}
+
+else
+{
+_putchar ('\n');
+}
 
 }

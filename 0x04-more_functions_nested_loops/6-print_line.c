@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_line - draws a straight line in the terminal.
  *@n: print int
@@ -7,24 +7,22 @@
 void print_line(int n)
 {
 
-	/*Delcaring statements*/
-	int i;
 
-	if (n > 0) /*Start IF*/
-	{
-		for (i = 0; i < n; i++) /*Print (_) n times*/
-		{
-			_putchar (95);
-		}
+int i;
 
-		_putchar ('\n'); /*New line*/
+if (n > 0)
+{
+for (i = 0; i < n; i++)
+{
+_putchar (95);
+}
 
-	} /*End IF*/
+_putchar ('\n');
+}
 
-	else
-	{
-		_putchar ('\n'); /*New line*/
-	}
-
+else
+{
+_putchar ('\n');
+}
 
 }

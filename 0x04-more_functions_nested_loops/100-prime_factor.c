@@ -9,16 +9,16 @@
 int main(void)
 
 {
-	long n, i; /*Declaring statements*/
+long n, i;
 
-	n = 612852475143;
-	for (i = 2; i < n; i++) /*Start FOR*/
-	{
-		while (n % i == 0)
-			n = n / i;
-	} /*End For*/
+n = 612852475143;
+for (i = 2; i < n; i++)
+{
+while (n % i == 0)
+n = n / i;
+}
 
-	printf("%lu\n", n); /*Print new line*/
+printf("%lu\n", n);
 
-	return (0);
+return (0);
 }
